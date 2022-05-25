@@ -1,0 +1,38 @@
+/* todo: 
+    1. responsive
+    2. integrate material UI/chakra UI */
+
+.HeaderBox {
+    display: flexbox;
+    flex-basis: 50%;
+    flex-grow: 0;
+  }
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: -15px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+button {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+img {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
