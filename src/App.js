@@ -7,9 +7,5 @@ import "./App.css";
 
 export default function App() {
   const { user } = useAuth();
-  return (
-    <div className="App">
-      { user ? <PageEditor /> : <PageHome />}
-    </div>
-  );
+  return <div className="App">{user ? <PageEditor /> : <PageHome />}</div>;
 }

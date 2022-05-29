@@ -1,16 +1,14 @@
-// to do: 
-// 1) User Interface Editor
-// 2) Handle logout (using Navbar --> Material UI/ Chakra UI )
-
-import React from 'react';
-import Editor from '../components/Editor';
+import Editor from "../components/Editor";
+import React from "react";
+import Navbar from "../components/Navbar";
 
 function PageEditor() {
-    return (
-        <>
-            <Editor />
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      <Editor />
+    </>
+  );
 }
 
 export default PageEditor;

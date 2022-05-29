@@ -1,10 +1,7 @@
-import React from 'react';
-import styles from './Editor.module.css'
+import React from "react";
 
-function Editor(){
-    return (
-        <h1>Coming Soon</h1>
-    )
+function Editor() {
+  return <h1>Coming Soon</h1>;
 }
 
 export default Editor;
