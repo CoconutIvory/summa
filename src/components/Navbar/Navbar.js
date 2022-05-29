@@ -6,21 +6,21 @@ function Navbar() {
   const { activeItem, setActiveItem } = useState("Home");
   const { signout } = useAuth();
   return (
-    <Menu pointing secondary>
+    <Menu tabular>
       <Menu.Item
         name="Home"
         active={activeItem === "Home"}
-        onClick={() => setActiveItem("Home")}
+        onClick={() => setActiveItem(this.name)}
       />
       <Menu.Item
         name="Features"
         active={activeItem === "Features"}
-        onClick={() => setActiveItem("Features")}
+        onClick={() => setActiveItem(this.name)}
       />
       <Menu.Item
         name="Contact Us"
         active={activeItem === "Contact Us"}
-        onClick={() => setActiveItem("Contact Us")}
+        onClick={() => setActiveItem(this.name)}
       />
       <Menu.Menu position="right">
         <Menu.Item
